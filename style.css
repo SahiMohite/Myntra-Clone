@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  background: white;
+  height: 66px;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+.rightBox{
+  display: flex;
+  margin: 12px;
+}
+
+.left img{
+  width: 32px;
+  height: 23px;
+}
+.container{
+  padding: 0 10vw;
+}
+
+.containerHeader{
+  padding: 0 10vw;
+}
+nav{
+  font-size: 12px;
+  padding-top: 14px;
+}
+nav ul li{
+  list-style: none;
+  padding: 0 12px;
+}
+nav ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.section1{
+  background: #f2f2f2;
+}
+
+.search{
+  width: 34vw;
+  padding: 7px 17px;
+  border: 0.2px solid grey;
+  background: #f7f8fd;
+  border-radius: 5px;
+}
+
+.homeImg{
+  width: 80vw;
+  margin: 12px 0;
+}
+
+.itemImg{
+  width: 9vw;
+  margin: 6px 5px;
+  padding-right: 3px;
+}
+
+
+footer{
+  margin: 0;
+  background: #f2f2f2;
+}
+
+.head{
+  flex-direction: column;
+}
+.head1{
+  flex-direction: column;
+  padding: 0px 10px;
+}
+
+.link{
+  text-decoration: none;
+  color: #696b79;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
+.contact{
+  margin-right: 5px;
+  height: 42px;
+  cursor: pointer;
+}
+
+.media{
+  height:25px;
+  margin-right: 11px;
+  cursor: pointer;
+}
+
+.media:hover{
+  box-shadow: rgba(0,0,0,0.35) 0px 0px 2px;
+}
+.title{
+  font-weight: bolder;
+  color: #282c3f;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bottom{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  color: #696b79;
+}
+
+.link2{
+  text-decoration: none;
+}
+.bottom{
+  width: 50%;
+  padding:20px;
+  flex: 1;
+  text-align: center;
+  margin-left:82px;
+}
+.bottom1{
+  text-align: end;
+  flex: 1;
+  padding:20px;
+}
+
+@media (max-width: 1500px){
+
+  nav ul li{
+    list-style: none;
+    padding: 0 4px;
+    font-size: 10px;
+  }
+
+  .containeHeader{
+    padding: 0 2vw;
+  }
+  header{
+    height: 135px;
+  }
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right{
+    flex-direction: column;
+  }
+
+}
+@media (max-width: 760px){
+  .bottom{
+    flex: 1;
+    text-align: left;
+    margin-left:0px;
+    padding-left: 2px;
+    font-size: 11px;
+  }
+  .bottom1{
+    font-size: 11px;
+    text-align: left;
+    padding-left: 0px;
+    flex: 1;
+  }
+}
+@media (max-width: 420px){
+  .title{
+    font-size: 11px;
+  }
+  .link{
+    font-size: 10px;
+  }
+  .contact{
+    height: 33px;
+  }
+  .media{
+    height: 15px;
+    margin-right: 5px;
+  }
+  .bottom{
+    flex: 1;
+    text-align: left;
+    margin-left:0px;
+    padding-left: 2px;
+    font-size: 11px;
+  }
+  .bottom1{
+    font-size: 11px;
+    text-align: left;
+    padding-left: 0px;
+    flex: 1;
+  }
+}
